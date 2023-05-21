@@ -1,14 +1,45 @@
 ﻿
+using System.Text;
+
 namespace MeuApp
 {
     class Program
     {
         static void Main(string[] args)
         {   
-           Cliente cliente = new Cliente;
+         
+           var id = Guid.NewGuid();
+           id.ToString();
+           var senha = id.ToString().Substring(0, 8);
 
-           cliente.Nome = "Jociel";
-           
+           var price = 10.4;
+           var produto = "xocolate";
+           var texto = "O preco do produto é " + price;
+           var texto2 = string.Format("O preco do {0} é {1}  ", produto, price);
+           var texto3 = $"O preco do {produto} é  {price}  ";
+           var texto4 = @"Adiciona o arrobara
+           para conseguir continuar 
+           escrevendo em outra linha  ";
+           var product = produto.Replace("xo", "cho");
+
+           var texto5 = texto4.Trim();
+
+           var comparando = texto2.CompareTo(texto3);
+
+           var textogrande = new StringBuilder();
+
+            textogrande.Append(produto);
+            textogrande.Append(texto2);
+            textogrande.Append(texto3);
+            textogrande.Append(texto4);
+            textogrande.Append(texto5);
+
+
+            Console.WriteLine(textogrande);
+
+
+            Console.WriteLine(product);
+        
         }
 
     }

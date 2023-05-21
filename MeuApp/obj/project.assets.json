@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jociel\\dev\\MeuApp\\MeuApp.csproj",
+      "projectUniqueName": "C:\\Users\\jociel\\repoDotnet\\MeuApp\\MeuApp.csproj",
       "projectName": "MeuApp",
-      "projectPath": "C:\\Users\\jociel\\dev\\MeuApp\\MeuApp.csproj",
+      "projectPath": "C:\\Users\\jociel\\repoDotnet\\MeuApp\\MeuApp.csproj",
       "packagesPath": "C:\\Users\\jociel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jociel\\dev\\MeuApp\\obj\\",
+      "outputPath": "C:\\Users\\jociel\\repoDotnet\\MeuApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jociel\\AppData\\Roaming\\NuGet\\NuGet.Config",
